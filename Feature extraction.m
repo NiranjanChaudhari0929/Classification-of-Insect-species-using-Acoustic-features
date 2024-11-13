@@ -1,12 +1,12 @@
 clear,clc;
-No_of_images=95;  %starting and ending point of the umages 
+No_of_images=95;  % total number of images present
 
 features=[;;;];
 features1=[;;;];
 
 
 
-for k=1:7     %here the final value of k depends on the number of files startng with A, B ,etc
+for k=1:7     % here the final value of k depends on the number of files startng with A, B ,etc
     image= ['D:\NIRANJAN BITS FOLDER_BK_SG2_G(recent)\SEMESTER 5\COMP_PHY_CODES\Spectrograms - divided in A,B,C,D,EFGH\I',num2str(k,'%d'),'.png'];  %here we have considered summation of 7 png files starting with I
     Input=imread(image);
     gray=im2gray(Input)
