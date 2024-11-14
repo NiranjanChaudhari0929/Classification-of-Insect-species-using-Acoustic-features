@@ -1,0 +1,1 @@
+The project consists of classification of Insect species based on their acoustic features. The acoustic features are processed and fed into Machine learning and Deep learning models seprately to test the performace of the models. Dataset has been hathered from internet sources.
